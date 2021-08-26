@@ -1,6 +1,6 @@
 # Foodie || Ruby on Rails + Javascript
 
-This Ruby on Rails backend, Javascript frontend project called Taste This City (Foodie on Github)! The origin of this application started here: 
+This Ruby on Rails backend, Javascript frontend project called Taste This City (myfoodie on Github)! The origin of this application started here: 
 
 https://github.com/daliayan/backend.git
 
