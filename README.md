@@ -8,6 +8,8 @@ There was an error that created a disconnection in the application so I created 
 
 https://github.com/daliayan/foodie_app
 
+Thankfully, if you're still reading this I was able to transfer my application over to its new home.
+
 ## Description of the Application
 This application is a website where I stored cities and restaurants I've visited while traveling the world. Initially, I wanted to create a generic website for restaurants to be added to - but I decided towards the end I wanted it to be more personalized. The idea of Taste This City was born.
 
