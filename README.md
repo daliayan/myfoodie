@@ -38,7 +38,7 @@ Finally, you can look at restaurants in different cities and contribute to this 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/daliayan/foodie. This project is intended to be a safe, welcoming space for collaboration, and contributors.
+Bug reports and pull requests are welcome on GitHub at https://github.com/daliayan/myfoodie. This project is intended to be a safe, welcoming space for collaboration, and contributors.
 
 ## License
 
