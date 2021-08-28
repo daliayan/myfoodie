@@ -17,7 +17,7 @@ This application is a website where I stored cities and restaurants I've visited
 
 Use this link to clone my GitHub repository:
 ```bash
-gh repo clone daliayan/foodie
+gh repo clone daliayan/myfoodie
 ```
 
 From there cd into the backend folder of the application. Once in the correct folder run the following command in your terminal to ensure you have the required gems to run the application:
