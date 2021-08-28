@@ -45,6 +45,6 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/daliay
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Read & Watch More About My Experience Making This Application
-- https://daliayan.medium.com/trouble-in-javascript-land-a27611a20ea3
-- https://youtu.be/tPhxJYmqsQ4
-- https://youtu.be/acOPL09DiNs
+- My Blog Link: https://daliayan.medium.com/trouble-in-javascript-land-a27611a20ea3
+- Coding Walk Through: https://youtu.be/tPhxJYmqsQ4
+- Application Walk Through: https://youtu.be/acOPL09DiNs
