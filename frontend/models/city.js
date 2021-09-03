@@ -18,6 +18,24 @@ class City {
         cityList.appendChild(cityDiv);
         cityList.appendChild(restaurants);
 
+        // const cityForm = document.getElementById('city-list');
+        const selectCityDropdown = document.createElement('option');
+        selectCityDropdown.id = `${this.id}`;
+        selectCityDropdown.classList.add('cityNames');
+
+        // this.cityName.forEach(cityName => {
+        //     const citName = new City(cityName);
+        //     const listNames = citNames.getCityInfo();
+        // })
+
+
+        // selectCityDropdown.appendChild(cityDiv);
+        // const cityForm = document.getElementById('city-list');
+        
+        // cityForm.classList.add('city-form-dropdown')
+        // cityForm.innerHTML  = `${this.name}`;
+
+
     };
 
     getCityInfo(){
