@@ -4,7 +4,6 @@ class RestaurantApi {
         this.baseURL = baseURL;
     };
 
-    //deleting restuarant function
     deleteRestaurant(id){
         const config = {
             method: 'DELETE',
@@ -24,8 +23,6 @@ class RestaurantApi {
         const restaurantRating = document.getElementById('restaurant-rating')
         const selectCityDropdown = document.getElementById("cityRestaurant")
     
-        // making a params hash to dictate the info the user can submit
-        // object with key value pairs
         const formData = {
             name: restaurantName.value, 
             nationality: restaurantNationality.value, 
@@ -33,7 +30,6 @@ class RestaurantApi {
             city_id: selectCityDropdown.value,
         }
     
-        // my config obj makes it easier to extract change data info
         const configObj = {
             method: 'POST',
             headers: {

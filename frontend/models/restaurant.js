@@ -2,7 +2,6 @@ const restaurantApi = new RestaurantApi('http://localhost:3000/restaurants');
 
 class Restaurant {
 
-    //constructing my restaurant data
     constructor({id, name, nationality, rating, city_id}){
         this.id = id;
         this.name = name;
@@ -11,7 +10,6 @@ class Restaurant {
         this.cityId = city_id;
     };
     
-    // getting the restaurant data from CityApi
      getRestaurant(){
          const restaurantLi = document.createElement('li');
          const deleteRes = document.createElement('button');
@@ -28,7 +26,6 @@ class Restaurant {
 
         restaurantLi.appendChild(restdata);
 
-        // getting the values of nationality/rating for restaurant upon click
         restaurantLi.addEventListener('click', () => {
             if (restdata.classList.contains('hidden')){
                 console.log("connected click")
@@ -43,14 +40,12 @@ class Restaurant {
          deleteRes.classList.add('delete-btn');
          deleteRes.innerText = 'x';
 
-        // the ability to delete a restaurant upon click
          deleteRes.addEventListener('click', () => {
              restaurantApi.deleteRestaurant(this.id);
              restaurantLi.remove();
          });
 
          restaurantLi.appendChild(deleteRes);
-         // Adds a new child node to an element as the last child node
         return restaurantLi;
      };
 }

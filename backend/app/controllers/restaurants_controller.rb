@@ -11,8 +11,6 @@ class RestaurantsController < ApplicationController
         render json: @restaurant
     end
 
-    #Not new because I'm not working with views
-
     def create
         restaurant = Restaurant.create(restaurant_params)
         if restaurant.save

@@ -1,7 +1,7 @@
 class CityApi {
 
     constructor(baseURL){
-        this.baseURL = baseURL; //the url I'm fetching from
+        this.baseURL = baseURL;
     };
 
     getCities(){
