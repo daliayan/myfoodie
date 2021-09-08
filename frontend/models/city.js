@@ -18,18 +18,6 @@ class City {
         cityList.appendChild(cityDiv);
         cityList.appendChild(restaurants);
 
-        // const cityForm = document.getElementById('city-list');
-        // const selectCityDropdown = document.createElement('option');
-        // selectCityDropdown.classList.add('cityNames');
-        // selectCityDropdown.appendChild(cityDiv);
-
-
-        // selectCityDropdown.appendChild(cityDiv);
-        // const cityForm = document.getElementById('city-list');
-        // selectCityDropdown.id = `${this.id}`;
-        // cityForm.classList.add('city-form-dropdown')
-        // cityForm.innerHTML  = `${this.name}`;
-
     };
 
     getCityInfo(){

@@ -22,6 +22,11 @@ class RestaurantApi {
         const restaurantNationality = document.getElementById('restaurant-nationality')
         const restaurantRating = document.getElementById('restaurant-rating')
         const selectCityDropdown = document.getElementById("cityRestaurant")
+
+        const selectCityOption = document.createElement('option');
+        selectCityOption.value = this.id;
+        selectCityOption.innerText = this.name;
+        selectCityDropdown.append(selectCityOption);
     
         const formData = {
             name: restaurantName.value, 
