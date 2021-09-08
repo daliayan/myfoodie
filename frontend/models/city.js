@@ -30,7 +30,6 @@ class City {
         // cityForm.classList.add('city-form-dropdown')
         // cityForm.innerHTML  = `${this.name}`;
 
-
     };
 
     getCityInfo(){
