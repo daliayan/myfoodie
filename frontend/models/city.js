@@ -19,6 +19,17 @@ class City {
         selectCityOption.value = this.id;
         selectCityOption.innerText = this.name;
         selectCityDropdown.append(selectCityOption);
+
+        const cityFiltDrop = document.getElementById("cityRestaurant");
+        const filterDrop = document.createElement('div');
+        filterDrop.classList.add('filter-button');
+        cityFiltDrop.append(filterDrop);
+
+        // selectCityDropdown.addEventListener('change', () => {
+        //     // this.id = id;
+        //     console.log(this.name)
+        // });
+
       
         cityDiv.appendChild(cityInfo);
         cityList.appendChild(cityDiv);

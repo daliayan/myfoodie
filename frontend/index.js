@@ -6,3 +6,4 @@ document.addEventListener('DOMContentLoaded', () => {
     cityApi.getCities();
     form.addEventListener('submit', restaurantApi.submitForm.bind(restaurantApi))
 });
+
