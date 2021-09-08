@@ -19,19 +19,14 @@ class City {
         cityList.appendChild(restaurants);
 
         // const cityForm = document.getElementById('city-list');
-        const selectCityDropdown = document.createElement('option');
-        selectCityDropdown.id = `${this.id}`;
-        selectCityDropdown.classList.add('cityNames');
-
-        // this.cityName.forEach(cityName => {
-        //     const citName = new City(cityName);
-        //     const listNames = citNames.getCityInfo();
-        // })
+        // const selectCityDropdown = document.createElement('option');
+        // selectCityDropdown.classList.add('cityNames');
+        // selectCityDropdown.appendChild(cityDiv);
 
 
         // selectCityDropdown.appendChild(cityDiv);
         // const cityForm = document.getElementById('city-list');
-        
+        // selectCityDropdown.id = `${this.id}`;
         // cityForm.classList.add('city-form-dropdown')
         // cityForm.innerHTML  = `${this.name}`;
 
