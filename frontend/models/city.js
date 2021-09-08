@@ -23,7 +23,6 @@ class City {
         cityDiv.appendChild(cityInfo);
         cityList.appendChild(cityDiv);
         cityList.appendChild(restaurants);
-
     };
 
     getCityInfo(){
