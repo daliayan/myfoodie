@@ -13,6 +13,12 @@ class City {
 
         const cityInfo = this.getCityInfo();
         const restaurants = this.getCityRestaurants();
+
+        const selectCityDropdown = document.getElementById("cityRestaurant")
+        const selectCityOption = document.createElement('option');
+        selectCityOption.value = this.id;
+        selectCityOption.innerText = this.name;
+        selectCityDropdown.append(selectCityOption);
       
         cityDiv.appendChild(cityInfo);
         cityList.appendChild(cityDiv);
