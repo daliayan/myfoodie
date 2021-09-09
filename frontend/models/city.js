@@ -23,13 +23,6 @@ class City {
         cityDiv.appendChild(cityInfo);
         cityList.appendChild(cityDiv);
         cityList.appendChild(restaurants);
-
-        const cityFiltDrop = document.getElementById("cityDropdown");
-        cityFiltDrop.addEventListener('change', () => {
-            // this.id = id;
-            console.log(`${this.name}`)
-        
-        });
     };
 
     getCityInfo(){
