@@ -7,3 +7,9 @@ document.addEventListener('DOMContentLoaded', () => {
     form.addEventListener('submit', restaurantApi.submitForm.bind(restaurantApi))
 });
 
+const cityFiltDrop = document.getElementById("cityDropdown");
+cityFiltDrop.addEventListener('change', () => {
+        // this.id = id;
+    console.log(`${this.value}`)
+        
+});
