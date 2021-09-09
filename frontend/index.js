@@ -10,6 +10,10 @@ document.addEventListener('DOMContentLoaded', () => {
 const cityFiltDrop = document.getElementById("cityDropdown");
 cityFiltDrop.addEventListener('change', () => {
     const selectCityDropdown = document.getElementById("cityRestaurant")
+    const headerCityOption = document.createElement('option');
+        headerCityOption.value = this.id;
+        headerCityOption.innerText = this.name;
+        selectCityDropdown.append(headerCityOption);
     console.log(`${selectCityDropdown.value}`)
         
 });
