@@ -45,16 +45,16 @@ class City {
         return restaurantUl;
     };
 
-    getDropDown(){
-        const cityFiltDrop = document.getElementById("cityDropdown");
-        const filterDrop = document.createElement('div');
-        filterDrop.classList.add('filter-button');
-        filterDrop.id = this.id;
-        cityFiltDrop.appendChild(filterDrop);
+    // getDropDown(){
+    //     const cityFiltDrop = document.getElementById("cityDropdown");
+    //     const filterDrop = document.createElement('div');
+    //     filterDrop.classList.add('filter-button');
+    //     filterDrop.id = this.id;
+    //     cityFiltDrop.appendChild(filterDrop);
     
-            filterDrop.addEventListener('change', () => {
-                // this.id = id;
-                console.log('hello')
-        });
-    }
+    //         filterDrop.addEventListener('change', () => {
+    //             // this.id = id;
+    //             console.log('hello')
+    //     });
+    // }
 };
