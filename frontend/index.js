@@ -15,18 +15,18 @@ document.addEventListener('DOMContentLoaded', () => {
 // });
 
 
-const cityFiltDrop = document.getElementById("cityDropdown");
-cityFiltDrop.addEventListener('change', () => {
-    console.log('hello')
-    // var citName = 
-    // if (citName ==="1"){
-    //     console.log(`${this.name}`)
-    // }else if (citName ==="2"){
-    //     console.log(`${this.name}`)
-    // } else if (citName ==="3"){
-    //     console.log(`${this.name}`)
-    // } else {
-    //     console.log(`${this.name}`)
-    // }
-    // return citName;
-});
+// const cityFiltDrop = document.getElementById("cityDropdown");
+// cityFiltDrop.addEventListener('change', () => {
+//     console.log(`${this}`)
+//     // var citName = 
+//     // if (citName ==="1"){
+//     //     console.log(`${this.name}`)
+//     // }else if (citName ==="2"){
+//     //     console.log(`${this.name}`)
+//     // } else if (citName ==="3"){
+//     //     console.log(`${this.name}`)
+//     // } else {
+//     //     console.log(`${this.name}`)
+//     // }
+//     // return citName;
+// });
