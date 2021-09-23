@@ -7,16 +7,16 @@ document.addEventListener('DOMContentLoaded', () => {
     form.addEventListener('submit', restaurantApi.submitForm.bind(restaurantApi))
 });
 
-const cityFiltDrop = document.getElementById("cityDropdown");
-cityFiltDrop.addEventListener('change', () => {
-    const selectCityDropdown = document.getElementById("cityRestaurant")
-    const headerCityOption = document.createElement('option');
-        headerCityOption.value = this.id;
-        headerCityOption.innerText = this.name;
-        selectCityDropdown.append(headerCityOption);
-    console.log(`${selectCityDropdown.value}`)
+// const cityFiltDrop = document.getElementById("cityDropdown");
+// cityFiltDrop.addEventListener('change', () => {
+//     const selectCityDropdown = document.getElementById("cityRestaurant")
+//     const headerCityOption = document.createElement('option');
+//         headerCityOption.value = this.id;
+//         headerCityOption.innerText = this.name;
+//         selectCityDropdown.append(headerCityOption);
+//     console.log(`${selectCityDropdown.value}`)
         
-});
+// });
 
 
 // const cityFiltDrop = document.getElementById("cityDropdown");
